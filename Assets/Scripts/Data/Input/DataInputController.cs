@@ -7,7 +7,8 @@ public class DataInputController : MonoBehaviour
     [Header("Keys")]
     [SerializeField] private List<DataInputKey> keys = new List<DataInputKey>();
     public DataInputKey GetKey(string name) { return keys.Find(key => key.Name == name); }
-  
+    public List<DataInputKey> Keys { get => keys; }
+
     [Header("References")]
     [SerializeField] private Data data;
 
@@ -25,8 +26,11 @@ public class DataInputController : MonoBehaviour
             keys[i].Update();
     }
 
-    public void InputLock(string KeyName)
+    public void TotalInputLockToggle(bool value)
     {
-        GetKey(KeyName).InputLockToggle();
+        for (int i = keys.Count - 1; i >= 0; i--)
+        {
+            keys[i].InputLock(!value);
+        }
     }
 }

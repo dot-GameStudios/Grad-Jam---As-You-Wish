@@ -53,15 +53,29 @@ public class Rigidbody2DVelocityFromData : MonoBehaviour
 
     public void VerticalForceImpulse()
     {
+        Debug.Log(dataFloat.Name);
         //rigidbody_.AddForce(new Vector2(rigidbody_.velocity.x, (float)dataFloats[0]), ForceMode2D.Impulse);
         rigidbody_.AddForce(new Vector2(rigidbody_.velocity.x, dataFloat.Value), ForceMode2D.Impulse);
         
+    }
+
+    public void VerticalForceImpulse(float value)
+    {
+        //rigidbody_.AddForce(new Vector2(rigidbody_.velocity.x, (float)dataFloats[0]), ForceMode2D.Impulse);
+        rigidbody_.AddForce(new Vector2(rigidbody_.velocity.x, value), ForceMode2D.Impulse);
+
     }
 
     public void HorizontalMovement()
     {
         //rigidbody_.velocity = new Vector2( (float)dataFloats[0] * (float)dataFloats[1], rigidbody_.velocity.y);
         rigidbody_.velocity = new Vector2(dataDirection.Value * dataFloat.Value, rigidbody_.velocity.y);
+    }
+
+    public void HorizontalMovement(float value)
+    {
+        //rigidbody_.velocity = new Vector2( (float)dataFloats[0] * (float)dataFloats[1], rigidbody_.velocity.y);
+        rigidbody_.velocity = new Vector2(dataDirection.Value * value, rigidbody_.velocity.y);
     }
 
     public void ResetSpeedX()

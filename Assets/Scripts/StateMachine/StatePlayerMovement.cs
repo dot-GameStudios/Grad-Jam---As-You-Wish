@@ -5,32 +5,51 @@ using UnityEngine;
 public class StatePlayerMovement : State
 {
     [Header("Data")]
+    [SerializeField] private DataInt dataIntMax;
     [SerializeField] private DataInt dataInt;
     [SerializeField] private DataBool Condition;
-
+    
     public LayerMask GroundLayer;
 
     [Header("References")]
     [SerializeField] private DataInputController Controller;
     [SerializeField] private Rigidbody2D Rigidbody;
 
+    public void GetData()
+    {
+        Condition = data.Bool(Condition);
+        dataIntMax = data.Int(dataIntMax);
+        dataInt = data.Int(dataInt);
+    }
+
     public void GroundCheck()
     {
         Condition.Value = GetComponent<Collider2D>().IsTouchingLayers(GroundLayer);
     }
 
-    public void InputLock(string KeyName)
+    public void TotalInputLockToggle(bool value)
     {
-        Controller.InputLock(KeyName);
+        Controller.TotalInputLockToggle(value);
     }
 
-    public void DecreaseJumpCount()
+    public void DecreaseIntCount()
     {
-        
+        if (dataInt.Value > 0)
+        {
+            dataInt.Value--;
+        }
     }
 
-    public void GetKeys(DataInputController controller)
-    {
-        
-    }
+   public void JumpLimit(string KeyName)
+   {
+        if(Condition.Value == false && dataInt.Value == 0)
+        {
+            Controller.GetKey(KeyName).InputLock(false);
+        }
+        else if (Condition.Value == true)
+        {
+            Controller.GetKey(KeyName).InputLock(true);
+            dataInt.Value = dataIntMax.Value;
+        }
+   }
 }

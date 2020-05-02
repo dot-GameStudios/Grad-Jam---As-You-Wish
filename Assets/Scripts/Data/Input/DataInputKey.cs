@@ -63,8 +63,8 @@ public class DataInputKey : DataInput
         }
     }
 
-    public void InputLockToggle()
+    public void InputLock(bool value)
     {
-        active = !active;
+        active = value;
     }
 }
