@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{d1424475-bf5b-4012-a056-7b949beb9406}">
+		<property name="assetPath">
+			<value>feathers_02.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.55473922902494333</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3c1c7932-580f-43a5-9ea1-239a8aefa1cb}</destination>
+		</relationship>
+	</object>
+</objects>
