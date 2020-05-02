@@ -65,6 +65,6 @@ public class DataInputKey : DataInput
 
     public void InputLock(bool value)
     {
-        active = value;
+        active = !value;
     }
 }

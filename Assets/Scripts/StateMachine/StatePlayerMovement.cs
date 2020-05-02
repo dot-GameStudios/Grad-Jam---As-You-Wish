@@ -44,11 +44,11 @@ public class StatePlayerMovement : State
    {
         if(Condition.Value == false && dataInt.Value == 0)
         {
-            Controller.GetKey(KeyName).InputLock(false);
+            Controller.GetKey(KeyName).InputLock(true);
         }
         else if (Condition.Value == true)
         {
-            Controller.GetKey(KeyName).InputLock(true);
+            Controller.GetKey(KeyName).InputLock(false);
             dataInt.Value = dataIntMax.Value;
         }
    }

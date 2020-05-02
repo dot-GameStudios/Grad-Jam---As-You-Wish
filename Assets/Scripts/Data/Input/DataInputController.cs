@@ -30,7 +30,7 @@ public class DataInputController : MonoBehaviour
     {
         for (int i = keys.Count - 1; i >= 0; i--)
         {
-            keys[i].InputLock(!value);
+            keys[i].InputLock(value);
         }
     }
 }
