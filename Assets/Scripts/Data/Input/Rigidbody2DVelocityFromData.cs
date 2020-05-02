@@ -62,8 +62,11 @@ public class Rigidbody2DVelocityFromData : MonoBehaviour
     public void VerticalForceImpulse(float value)
     {
         //rigidbody_.AddForce(new Vector2(rigidbody_.velocity.x, (float)dataFloats[0]), ForceMode2D.Impulse);
-        rigidbody_.AddForce(new Vector2(rigidbody_.velocity.x, value), ForceMode2D.Impulse);
+        rigidbody_.velocity = new Vector2(rigidbody_.velocity.x, 0);
+        Vector2 temp = Vector2.zero;
 
+        rigidbody_.AddForce(new Vector2(rigidbody_.velocity.x, value), ForceMode2D.Impulse);
+        //rigidbody_.velocity.Normalize();
     }
 
     public void HorizontalMovement()
