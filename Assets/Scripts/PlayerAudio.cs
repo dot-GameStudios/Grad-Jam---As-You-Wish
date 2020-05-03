@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class PlayerAudio : MonoBehaviour
 {
+    public Animator animator;
     // Start is called before the first frame update
     void Start()
     {
@@ -21,5 +22,12 @@ public class PlayerAudio : MonoBehaviour
     {
 
         FMODUnity.RuntimeManager.PlayOneShot("event:/bat_flapping",GetComponent<Transform>().position);
+    }
+
+    public void WalkAudio()
+    {
+        if (!animator.GetBool("Flying"))
+            FMODUnity.RuntimeManager.PlayOneShot("event:/bat_walking",GetComponent<Transform>().position);
+            
     }
 }

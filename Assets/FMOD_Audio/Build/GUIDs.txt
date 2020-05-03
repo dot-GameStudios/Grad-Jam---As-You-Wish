@@ -3,9 +3,15 @@
 {90489c4e-cc4e-4ba6-b5d5-59104ab39349} bus:/
 {2c59838b-8c43-4323-b3ed-d320cfbf8cf6} bus:/Reverb
 {0dc9c302-5990-4f44-8ff7-d4067b5c7f85} event:/bat_flapping
+{c9eee7cf-bb59-4b14-adb6-3a58dcf44b56} event:/bat_walking
+{875745f0-ebe6-4c18-b819-34d7db22d075} event:/bug_walking
 {0a3ab7d6-0685-4365-b510-5cffdbafeb86} event:/button
 {9d1b9926-e88c-45aa-9cf4-03e5fbbf927e} event:/game_over
 {a3eb054e-0ee2-43c7-a9bf-88c8c2099b0e} event:/ground_hit
+{1b41c0ea-c905-463e-9b18-ee9b61f5f63f} event:/key_delivered_01
+{62fdd631-1cc9-4823-8e11-50c94c4ba4c7} event:/key_delivered_02
+{4193808d-2b30-4c3b-9f85-f9dc4c58b787} event:/key_delivered_03
+{1dee0442-174b-469b-b8a8-edcf3479a76f} event:/key_delivered_04
 {91c134a2-29f6-415c-8589-b2c53b6bc2ea} event:/key_retrieved_01
 {c7053f07-7c96-4652-86bc-45aea4d75a47} event:/key_retrieved_02
 {81460229-17e8-4659-a319-2dc699482abd} event:/key_retrieved_03
