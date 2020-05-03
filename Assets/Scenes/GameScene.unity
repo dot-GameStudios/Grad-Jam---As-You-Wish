@@ -423,8 +423,38 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
+      propertyPath: keys.Array.data[1].onPositiveKeyDown.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
       propertyPath: keys.Array.data[1].onPositiveKeyDown.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_FloatArgument
       value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[1].onPositiveKeyDown.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[1].onPositiveKeyDown.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[1].onPositiveKeyDown.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1327360612}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[1].onPositiveKeyDown.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: JumpAudio
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[1].onPositiveKeyDown.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915133, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
@@ -112998,6 +113028,47 @@ Tilemap:
     e31: 0
     e32: 0
     e33: 1
+--- !u!1 &1327360611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6472864522484915133, guid: b874766b6500c254799bcbcf988aa5a6,
+    type: 3}
+  m_PrefabInstance: {fileID: 867775079}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1327360612
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327360611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9faeeb7e1f515f43ad9d9efcad6c956, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1327360613
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1327360611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/music_1.2
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
 --- !u!1 &1660368088
 GameObject:
   m_ObjectHideFlags: 0
@@ -117303,9 +117374,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1782284883}
   - component: {fileID: 1782284882}
-  - component: {fileID: 1782284881}
   - component: {fileID: 1782284884}
   - component: {fileID: 1782284885}
+  - component: {fileID: 1782284881}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -117313,14 +117384,19 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1782284881
-AudioListener:
+--- !u!114 &1782284881
+MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1782284880}
   m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86c6556701af9e04380698b89f691b6e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ListenerNumber: -1
 --- !u!20 &1782284882
 Camera:
   m_ObjectHideFlags: 0

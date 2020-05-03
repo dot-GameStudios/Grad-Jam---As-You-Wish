@@ -4,8 +4,15 @@
 {2c59838b-8c43-4323-b3ed-d320cfbf8cf6} bus:/Reverb
 {0dc9c302-5990-4f44-8ff7-d4067b5c7f85} event:/bat_flapping
 {0a3ab7d6-0685-4365-b510-5cffdbafeb86} event:/button
+{9d1b9926-e88c-45aa-9cf4-03e5fbbf927e} event:/game_over
+{a3eb054e-0ee2-43c7-a9bf-88c8c2099b0e} event:/ground_hit
 {91c134a2-29f6-415c-8589-b2c53b6bc2ea} event:/key_retrieved_01
 {c7053f07-7c96-4652-86bc-45aea4d75a47} event:/key_retrieved_02
 {81460229-17e8-4659-a319-2dc699482abd} event:/key_retrieved_03
 {89fea8c0-50c4-46cf-a19b-4dd403173ee2} event:/key_retrieved_04
+{76e0a9d6-5c16-46ec-ba33-2790fc85d30b} event:/lava_pit
+{2a7ad71c-039b-4738-8d73-52691108f310} event:/music_1.2
+{0f2f3ce6-3328-4bd5-8236-37715e02f964} event:/music_2.1
+{60c5d876-43a0-446a-a52c-81a868074f2d} event:/music_4.1
+{2f0b9a88-ea80-45c3-a1ea-6bb7889272c3} event:/music_loop
 {c6ce338a-3c9f-4f30-b30b-fd3988dfd781} event:/owl_flapping

@@ -179,6 +179,12 @@
 		<property name="length">
 			<value>1.02</value>
 		</property>
+		<property name="delayType">
+			<value>0</value>
+		</property>
+		<property name="maximumTimeDelay">
+			<value>180</value>
+		</property>
 		<relationship name="modulators">
 			<destination>{0682631d-d46a-46e0-a896-7cfb23fe6b5b}</destination>
 		</relationship>

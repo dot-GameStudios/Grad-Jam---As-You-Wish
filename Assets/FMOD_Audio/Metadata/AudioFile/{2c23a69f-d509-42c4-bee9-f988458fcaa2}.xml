@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{2c23a69f-d509-42c4-bee9-f988458fcaa2}">
+		<property name="assetPath">
+			<value>As_You_Wish_-_V1.2_Looped.wav</value>
+		</property>
+		<property name="isStreaming">
+			<value>true</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>132.00002267573697</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3c1c7932-580f-43a5-9ea1-239a8aefa1cb}</destination>
+		</relationship>
+	</object>
+</objects>
