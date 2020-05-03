@@ -1,0 +1,1444 @@
+fileFormatVersion: 2
+guid: 653a5f4e4f0805140aa3026246da1a46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -899809407628713341
+    second: Environment Tiles - Floor_0
+  - first:
+      213: 4043098834114320877
+    second: Environment Tiles - Floor_1
+  - first:
+      213: 1231188540033120214
+    second: Environment Tiles - Floor_2
+  - first:
+      213: 5337642960896828657
+    second: Environment Tiles - Floor_3
+  - first:
+      213: 7449931953742775421
+    second: Environment Tiles - Floor_4
+  - first:
+      213: -4299188535384096590
+    second: Environment Tiles - Floor_5
+  - first:
+      213: -7469283868790177458
+    second: Environment Tiles - Floor_6
+  - first:
+      213: -1253106977903234955
+    second: Environment Tiles - Floor_7
+  - first:
+      213: 5258254499729987376
+    second: Environment Tiles - Floor_8
+  - first:
+      213: -5716175678451034155
+    second: Environment Tiles - Floor_9
+  - first:
+      213: 8110811785964930143
+    second: Environment Tiles - Floor_10
+  - first:
+      213: 3977289231229132963
+    second: Environment Tiles - Floor_11
+  - first:
+      213: 2797886437770005180
+    second: Environment Tiles - Floor_12
+  - first:
+      213: -3061340052001173503
+    second: Environment Tiles - Floor_13
+  - first:
+      213: 8665143149542796722
+    second: Environment Tiles - Floor_14
+  - first:
+      213: 4025262446817250999
+    second: Environment Tiles - Floor_15
+  - first:
+      213: 5537478166295173497
+    second: Environment Tiles - Floor_16
+  - first:
+      213: -785704141089854764
+    second: Environment Tiles - Floor_17
+  - first:
+      213: 7022095561882056664
+    second: Environment Tiles - Floor_18
+  - first:
+      213: -8446804765146021357
+    second: Environment Tiles - Floor_19
+  - first:
+      213: -63830160787835819
+    second: Environment Tiles - Floor_20
+  - first:
+      213: -7908138709421842674
+    second: Environment Tiles - Floor_21
+  - first:
+      213: 4420520252740791708
+    second: Environment Tiles - Floor_22
+  - first:
+      213: 7450098663600520816
+    second: Environment Tiles - Floor_23
+  - first:
+      213: -5567869070835382987
+    second: Environment Tiles - Floor_24
+  - first:
+      213: 1730462466246964069
+    second: Environment Tiles - Floor_25
+  - first:
+      213: 9079144633461067526
+    second: Environment Tiles - Floor_26
+  - first:
+      213: 8524482198112757853
+    second: Environment Tiles - Floor_27
+  - first:
+      213: -6444934270515706916
+    second: Environment Tiles - Floor_28
+  - first:
+      213: 8544227365617759353
+    second: Environment Tiles - Floor_29
+  - first:
+      213: 9925856944511019
+    second: Environment Tiles - Floor_30
+  - first:
+      213: 8684720932587288878
+    second: Environment Tiles - Floor_31
+  - first:
+      213: -882552365329779525
+    second: Environment Tiles - Floor_0
+  - first:
+      213: -8895814171365439792
+    second: Environment Tiles - Floor_1
+  - first:
+      213: -1758855248152907998
+    second: Environment Tiles - Floor_32
+  - first:
+      213: -1648221230536603571
+    second: Environment Tiles - Floor_33
+  - first:
+      213: -2688431035863266941
+    second: Environment Tiles - Floor_34
+  - first:
+      213: 6536159003041999370
+    second: Environment Tiles - Floor_35
+  - first:
+      213: -129231115075195017
+    second: Environment Tiles - Floor_36
+  - first:
+      213: 786174218906381536
+    second: Environment Tiles - Floor_37
+  - first:
+      213: 5749018971520237200
+    second: Environment Tiles - Floor_38
+  - first:
+      213: -2671919387421166639
+    second: Environment Tiles - Floor_39
+  - first:
+      213: -589207457898836803
+    second: Environment Tiles - Floor_40
+  - first:
+      213: -86020647015466952
+    second: Environment Tiles - Floor_41
+  - first:
+      213: -1483697348516689844
+    second: Environment Tiles - Floor_42
+  - first:
+      213: 6135441364887337035
+    second: Environment Tiles - Floor_43
+  - first:
+      213: 7617255970594052578
+    second: Environment Tiles - Floor_44
+  - first:
+      213: 5706753936258841823
+    second: Environment Tiles - Floor_45
+  - first:
+      213: 4906431840692649268
+    second: Environment Tiles - Floor_46
+  - first:
+      213: 7804205937225090996
+    second: Environment Tiles - Floor_47
+  - first:
+      213: -6278213892888463542
+    second: Environment Tiles - Floor_48
+  - first:
+      213: 7637169677431527448
+    second: Environment Tiles - Floor_49
+  - first:
+      213: 2218144464522020619
+    second: Environment Tiles - Floor_50
+  - first:
+      213: 2405757410394717258
+    second: Environment Tiles - Floor_51
+  - first:
+      213: -5276385251575225035
+    second: Environment Tiles - Floor_52
+  - first:
+      213: -4364399917373604476
+    second: Environment Tiles - Floor_53
+  - first:
+      213: -7021325574017043140
+    second: Environment Tiles - Floor_54
+  - first:
+      213: 693004217024138268
+    second: Environment Tiles - Floor_2
+  - first:
+      213: 1972025804604892991
+    second: Environment Tiles - Floor_3
+  - first:
+      213: -9003550165316487028
+    second: Environment Tiles - Floor_4
+  - first:
+      213: -2393135818502481460
+    second: Environment Tiles - Floor_5
+  - first:
+      213: -5425181297486225452
+    second: Environment Tiles - Floor_6
+  - first:
+      213: -7018659851702240631
+    second: Environment Tiles - Floor_7
+  - first:
+      213: -2173490206528997583
+    second: Environment Tiles - Floor_8
+  - first:
+      213: -5516854510579192038
+    second: Environment Tiles - Floor_9
+  - first:
+      213: -9186518335573069807
+    second: Environment Tiles - Floor_10
+  - first:
+      213: 5945238995974194719
+    second: Environment Tiles - Floor_11
+  - first:
+      213: -2726785962085407344
+    second: Environment Tiles - Floor_12
+  - first:
+      213: 8033324043736776214
+    second: Environment Tiles - Floor_13
+  - first:
+      213: 3572077026334416111
+    second: Environment Tiles - Floor_14
+  - first:
+      213: -4537484372519428952
+    second: Environment Tiles - Floor_15
+  - first:
+      213: -5582563600514135764
+    second: Environment Tiles - Floor_16
+  - first:
+      213: 7573954291682859202
+    second: Environment Tiles - Floor_17
+  - first:
+      213: 8146567519197919932
+    second: Environment Tiles - Floor_18
+  - first:
+      213: -5699882776106899510
+    second: Environment Tiles - Floor_19
+  - first:
+      213: -7136714142417460120
+    second: Environment Tiles - Floor_20
+  - first:
+      213: -2855653483895428651
+    second: Environment Tiles - Floor_21
+  - first:
+      213: 4752435433664738734
+    second: Environment Tiles - Floor_22
+  - first:
+      213: 5169697946877729798
+    second: Environment Tiles - Floor_23
+  - first:
+      213: -4991248531254567843
+    second: Environment Tiles - Floor_24
+  - first:
+      213: 4417304679790663477
+    second: Environment Tiles - Floor_25
+  - first:
+      213: -5580037463460049985
+    second: Environment Tiles - Floor_26
+  - first:
+      213: -9186045755861289783
+    second: Environment Tiles - Floor_27
+  - first:
+      213: -3119065823078770799
+    second: Environment Tiles - Floor_28
+  - first:
+      213: -1399957835630944083
+    second: Environment Tiles - Floor_29
+  - first:
+      213: -2585959996822596857
+    second: Environment Tiles - Floor_30
+  - first:
+      213: 3253135310926912515
+    second: Environment Tiles - Floor_31
+  - first:
+      213: 2000184168582203981
+    second: Environment Tiles - Floor_32
+  - first:
+      213: 8212491093885392913
+    second: Environment Tiles - Floor_33
+  - first:
+      213: -7137699024957959051
+    second: Environment Tiles - Floor_34
+  - first:
+      213: -8102400737999376702
+    second: Environment Tiles - Floor_35
+  - first:
+      213: 7946351248820938425
+    second: Environment Tiles - Floor_36
+  - first:
+      213: 3790165658908820135
+    second: Environment Tiles - Floor_37
+  - first:
+      213: 3822326941952064431
+    second: Environment Tiles - Floor_38
+  - first:
+      213: -3062363350263124507
+    second: Environment Tiles - Floor_39
+  - first:
+      213: -4851866895833438022
+    second: Environment Tiles - Floor_40
+  - first:
+      213: -4435903975413998357
+    second: Environment Tiles - Floor_41
+  - first:
+      213: 328797639040529307
+    second: Environment Tiles - Floor_42
+  - first:
+      213: 8501039795412109808
+    second: Environment Tiles - Floor_43
+  - first:
+      213: 1799417460074099136
+    second: Environment Tiles - Floor_44
+  - first:
+      213: 7514565431691289208
+    second: Environment Tiles - Floor_45
+  - first:
+      213: 1039152635852206753
+    second: Environment Tiles - Floor_46
+  - first:
+      213: -7462463063370837557
+    second: Environment Tiles - Floor_47
+  - first:
+      213: 8519066924942384849
+    second: Environment Tiles - Floor_48
+  - first:
+      213: 8388177460548238783
+    second: Environment Tiles - Floor_49
+  - first:
+      213: -3771756631550542871
+    second: Environment Tiles - Floor_50
+  - first:
+      213: 2229752814162439960
+    second: Environment Tiles - Floor_51
+  - first:
+      213: 6883972512999277136
+    second: Environment Tiles - Floor_52
+  - first:
+      213: -8782012565225238169
+    second: Environment Tiles - Floor_53
+  - first:
+      213: -8321730381708676685
+    second: Environment Tiles - Floor_54
+  - first:
+      213: 3853466826448178780
+    second: Environment Tiles - Floor_55
+  - first:
+      213: -4601960026254602382
+    second: Environment Tiles - Floor_56
+  - first:
+      213: -3021223493646751136
+    second: Environment Tiles - Floor_57
+  - first:
+      213: -7596251961996855023
+    second: Environment Tiles - Floor_55
+  - first:
+      213: -8190161179922615915
+    second: Environment Tiles - Floor_58
+  - first:
+      213: 5682243275277399110
+    second: Environment Tiles - Floor_59
+  - first:
+      213: 930170588029498064
+    second: Environment Tiles - Floor_60
+  - first:
+      213: 6461166057300697106
+    second: Environment Tiles - Floor_61
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb476d8bc4b80c3f0800000000000000
+      internalID: -882552365329779525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d680e7a428bb8480800000000000000
+      internalID: -8895814171365439792
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c1c4297e9ab0e9900800000000000000
+      internalID: 693004217024138268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f37e063650b0e5b10800000000000000
+      internalID: 1972025804604892991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c88b6e6d3d6fc0380800000000000000
+      internalID: -9003550165316487028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc955e607afd9ced0800000000000000
+      internalID: -2393135818502481460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_6
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4df9d319a52e5b4b0800000000000000
+      internalID: -5425181297486225452
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_7
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 2000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98afdf32d06b89e90800000000000000
+      internalID: -7018659851702240631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1377c0d3c2636d1e0800000000000000
+      internalID: -2173490206528997583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_9
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1f6a6b5d023073b0800000000000000
+      internalID: -5516854510579192038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_10
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 110fd8dfe3ee28080800000000000000
+      internalID: -9186518335573069807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_11
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1687db1e5bb18250800000000000000
+      internalID: 5945238995974194719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_12
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 095a0675d92882ad0800000000000000
+      internalID: -2726785962085407344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_13
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ef888c7a91c7f60800000000000000
+      internalID: 8033324043736776214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_14
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fec1ff83121929130800000000000000
+      internalID: 3572077026334416111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_15
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8acd71af00e9701c0800000000000000
+      internalID: -4537484372519428952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c294457abffb682b0800000000000000
+      internalID: -5582563600514135764
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_17
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c85dccbc471c1960800000000000000
+      internalID: 7573954291682859202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_18
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbaf6801ffb6e0170800000000000000
+      internalID: 8146567519197919932
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_19
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac7e7cc70d2f5e0b0800000000000000
+      internalID: -5699882776106899510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_20
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86463b5ac4c45fc90800000000000000
+      internalID: -7136714142417460120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_21
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d96eca494eae58d0800000000000000
+      internalID: -2855653483895428651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_22
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea5f091f8da04f140800000000000000
+      internalID: 4752435433664738734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_23
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1600
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60c96b774e47eb740800000000000000
+      internalID: 5169697946877729798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5c91e4d7e58bbab0800000000000000
+      internalID: -4991248531254567843
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_25
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 537d79fc33b6d4d30800000000000000
+      internalID: 4417304679790663477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_26
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbb8715cd79bf82b0800000000000000
+      internalID: -5580037463460049985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_27
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c437670e0c948080800000000000000
+      internalID: -9186045755861289783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_28
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1971450d82ad6b4d0800000000000000
+      internalID: -3119065823078770799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_29
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: da061ba04c9529ce0800000000000000
+      internalID: -1399957835630944083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_30
+      rect:
+        serializedVersion: 2
+        x: 1200
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 703d40a7513dc1cd0800000000000000
+      internalID: -2585959996822596857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_31
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1400
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30c14165455752d20800000000000000
+      internalID: 3253135310926912515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4ac3b567e412cb10800000000000000
+      internalID: 2000184168582203981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_33
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11819146321a8f170800000000000000
+      internalID: 8212491093885392913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_34
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5749abfcd8cc1fc90800000000000000
+      internalID: -7137699024957959051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_35
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1200
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ce2fa7057d7e8f80800000000000000
+      internalID: -8102400737999376702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_38
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fab35762a12ab0530800000000000000
+      internalID: 3822326941952064431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_39
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ed246e02cc4085d0800000000000000
+      internalID: -3062363350263124507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_40
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8ee58b3c4baacb0800000000000000
+      internalID: -4851866895833438022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_41
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bec94b736d08072c0800000000000000
+      internalID: -4435903975413998357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_42
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b937ffde5bf109400800000000000000
+      internalID: 328797639040529307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_43
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 1000
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f98ffa47a2c9f570800000000000000
+      internalID: 8501039795412109808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 872a36d3279194860800000000000000
+      internalID: 7514565431691289208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_46
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a2b16f01dfcb6e00800000000000000
+      internalID: 1039152635852206753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_48
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de58f67b3ec93670800000000000000
+      internalID: 8519066924942384849
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_49
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbd7ae835fac86470800000000000000
+      internalID: 8388177460548238783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Floor_50
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 800
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebb435c35708abc0800000000000000
+      internalID: -3771756631550542871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
