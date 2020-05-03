@@ -1851,11 +1851,16 @@ PrefabInstance:
     - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
       propertyPath: keys.Array.data[0].onPositiveKey.m_PersistentCalls.m_Calls.Array.size
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
       propertyPath: keys.Array.data[0].onNegativeKey.m_PersistentCalls.m_Calls.Array.size
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKeyUp.m_PersistentCalls.m_Calls.Array.size
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
@@ -1931,7 +1936,7 @@ PrefabInstance:
     - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
       propertyPath: keys.Array.data[0].onPositiveKeyUp.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
-      value: RunAnimation
+      value: StopRunning
       objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
@@ -1988,15 +1993,90 @@ PrefabInstance:
       propertyPath: keys.Array.data[0].onNegativeKey.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onPositiveKey.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onPositiveKey.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onPositiveKey.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1327360614}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onPositiveKey.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RunAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onPositiveKey.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKey.m_PersistentCalls.m_Calls.Array.data[2].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKey.m_PersistentCalls.m_Calls.Array.data[2].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKey.m_PersistentCalls.m_Calls.Array.data[2].m_Target
+      value: 
+      objectReference: {fileID: 1327360614}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKey.m_PersistentCalls.m_Calls.Array.data[2].m_MethodName
+      value: RunAnimation
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKey.m_PersistentCalls.m_Calls.Array.data[2].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKeyUp.m_PersistentCalls.m_Calls.Array.data[1].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKeyUp.m_PersistentCalls.m_Calls.Array.data[1].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKeyUp.m_PersistentCalls.m_Calls.Array.data[1].m_Target
+      value: 
+      objectReference: {fileID: 1327360614}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKeyUp.m_PersistentCalls.m_Calls.Array.data[1].m_MethodName
+      value: StopRunning
+      objectReference: {fileID: 0}
+    - target: {fileID: 6472864522484915131, guid: b874766b6500c254799bcbcf988aa5a6,
+        type: 3}
+      propertyPath: keys.Array.data[0].onNegativeKeyUp.m_PersistentCalls.m_Calls.Array.data[1].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915132, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.x
-      value: 3.38
+      value: 3.96
       objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915132, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}
       propertyPath: m_SpriteTilingProperty.oldSize.y
-      value: 2.38
+      value: 2.71
       objectReference: {fileID: 0}
     - target: {fileID: 6472864522484915132, guid: b874766b6500c254799bcbcf988aa5a6,
         type: 3}

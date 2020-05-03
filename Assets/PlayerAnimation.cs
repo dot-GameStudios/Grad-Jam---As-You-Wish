@@ -21,11 +21,21 @@ public class PlayerAnimation : MonoBehaviour
     public void FlightAnimation()
     {
         animator.SetBool("Flying", true);
+         animator.SetBool("Idle",false);
+     
     }
 
     public void RunAnimation()
     {
-        animator.SetBool("Flying", false);
+        animator.SetBool("Run",true);
+        animator.SetBool("Idle",false);
+    }
+
+    public void StopRunning()
+    {
+       animator.SetBool("Run",false);
+       animator.SetBool("Flying",false);
+       animator.SetBool("Idle",true);
     }
 
     public void FlipForward()
