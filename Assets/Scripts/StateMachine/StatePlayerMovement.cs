@@ -11,6 +11,7 @@ public class StatePlayerMovement : State
     [SerializeField] private DataBool Healthy;
 
     public LayerMask GroundLayer;
+    public GameObject CheckPoint;
 
     [Header("References")]
     [SerializeField] private DataInputController Controller;
@@ -59,7 +60,7 @@ public class StatePlayerMovement : State
         }
     }
 
-   public void JumpLimit(string KeyName)
+    public void JumpLimit(string KeyName)
    {
         if(Condition.Value == false && dataInt.Value == 0)
         {
@@ -71,4 +72,17 @@ public class StatePlayerMovement : State
             dataInt.Value = dataIntMax.Value;
         }
    }
+
+    public void Teleport()
+    {
+        transform.position = CheckPoint.transform.position;
+    }
+
+    public void GetCheckPoint()
+    {
+        if (RB2DTrigger.Tag == "Checkpoint")
+        {
+            CheckPoint = RB2DTrigger.Collider.gameObject;
+        }
+    }
 }

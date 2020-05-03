@@ -19,9 +19,10 @@ GameObject:
   - component: {fileID: 6472864522484915124}
   - component: {fileID: 6472864522484915126}
   - component: {fileID: 6472864522484915127}
+  - component: {fileID: 249545551}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -35,7 +36,7 @@ Transform:
   m_GameObject: {fileID: 6472864522484915133}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 4.38, z: 0}
-  m_LocalScale: {x: 0.1, y: 0.1, z: 1}
+  m_LocalScale: {x: 0.18, y: 0.18, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -137,6 +138,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 6472864522484915127}
+        m_MethodName: Damage
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   CollStay2D:
     m_PersistentCalls:
       m_Calls: []
@@ -156,7 +168,29 @@ MonoBehaviour:
         m_CallState: 2
   TriggEnter2D:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 6472864522484915127}
+        m_MethodName: ExtraJump
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6472864522484915127}
+        m_MethodName: GetCheckPoint
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
   TriggStay2D:
     m_PersistentCalls:
       m_Calls: []
@@ -206,9 +240,11 @@ MonoBehaviour:
   bools:
   - name: Grounded
     value: 0
+  - name: IsHealthy
+    value: 1
   ints:
   - name: MaxJumps
-    value: 2
+    value: 1
   floats:
   - name: moveSpeed
     value: 5
@@ -312,7 +348,7 @@ MonoBehaviour:
             m_ObjectArgument: {fileID: 0}
             m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
             m_IntArgument: 0
-            m_FloatArgument: 8
+            m_FloatArgument: 10
             m_StringArgument: 
             m_BoolArgument: 0
           m_CallState: 2
@@ -450,6 +486,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   states:
   - {fileID: 6472864522484915127}
+  - {fileID: 249545551}
   currentState: {fileID: 0}
 --- !u!114 &6472864522484915127
 MonoBehaviour:
@@ -465,7 +502,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   active: 0
   data: {fileID: 6472864522484915128}
-  Transitions: []
+  Transitions:
+  - TransitonToState: {fileID: 249545551}
+    stateConditions:
+    - data: {fileID: 6472864522484915128}
+      boolConditions:
+      - datum:
+          name: IsHealthy
+          value: 1
+        condition: 0
+        compare: 0
+      intConditions: []
+      floatConditions: []
+      vector2Condition:
+        name: 
+        value: {x: 0, y: 0}
   OnUpdate:
     m_PersistentCalls:
       m_Calls:
@@ -532,15 +583,128 @@ MonoBehaviour:
         m_CallState: 2
   dataIntMax:
     name: MaxJumps
-    value: 2
+    value: 1
   dataInt:
     name: numOfJumps
-    value: 2
+    value: 1
   Condition:
     name: Grounded
     value: 0
+  Healthy:
+    name: IsHealthy
+    value: 1
   GroundLayer:
     serializedVersion: 2
     m_Bits: 256
+  CheckPoint: {fileID: 0}
   Controller: {fileID: 6472864522484915131}
   Rigidbody: {fileID: 6472864522484915135}
+  RB2DTrigger: {fileID: 0}
+--- !u!114 &249545551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6472864522484915133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eab01d8c85b9c774e9cc7a0d1711c7e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  active: 0
+  data: {fileID: 6472864522484915128}
+  Transitions:
+  - TransitonToState: {fileID: 6472864522484915127}
+    stateConditions:
+    - data: {fileID: 6472864522484915128}
+      boolConditions:
+      - datum:
+          name: IsHealthy
+          value: 0
+        condition: 1
+        compare: 0
+      intConditions: []
+      floatConditions: []
+      vector2Condition:
+        name: 
+        value: {x: 0, y: 0}
+  OnUpdate:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 249545551}
+        m_MethodName: CountDown
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  OnStateEnter:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 249545551}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+      - m_Target: {fileID: 6472864522484915127}
+        m_MethodName: TotalInputLockToggle
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 1
+        m_CallState: 2
+  OnStateExit:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 249545551}
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6472864522484915127}
+        m_MethodName: TotalInputLockToggle
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 6472864522484915127}
+        m_MethodName: Teleport
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+  deathcount: 1
+  Healthy:
+    name: IsHealthy
+    value: 0
