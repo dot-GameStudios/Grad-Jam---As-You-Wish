@@ -7,6 +7,7 @@ public class Parallax : MonoBehaviour
     private float length, startPosition;
     public GameObject mainCamera;
     public float parallaxSpeed;
+    public bool verticalParallax;
     // Start is called before the first frame update
     void Start()
     {
@@ -19,10 +20,18 @@ public class Parallax : MonoBehaviour
     {
         float temp = (mainCamera.transform.position.x * (1 - parallaxSpeed));
         float distance = (mainCamera.transform.position.x * parallaxSpeed);
+        float vDistance = (mainCamera.transform.position.y * parallaxSpeed);
+       
+        if (verticalParallax)
+        {
+            transform.position = new Vector3(startPosition + distance, startPosition + vDistance, transform.position.z);
+        }
+        else
+        {
+            transform.position = new Vector3(startPosition + distance, transform.position.y, transform.position.z);
+        }
 
-        transform.position = new Vector3(startPosition + distance, transform.position.y, transform.position.z);
-
-        if(temp > startPosition + length)
+        if (temp > startPosition + length)
         {
             startPosition += length;
         }

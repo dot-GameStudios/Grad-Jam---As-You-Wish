@@ -38,6 +38,14 @@ public class StatePlayerMovement : State
         }
     }
 
+    public void ExtraJump()
+    {
+        if (RB2DTrigger.Tag == "Key")
+        {
+            dataIntMax.Value++;
+        }
+    }
+
     public void TotalInputLockToggle(bool value)
     {
         Controller.TotalInputLockToggle(value);
