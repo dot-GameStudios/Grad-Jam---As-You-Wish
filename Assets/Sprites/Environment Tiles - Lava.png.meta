@@ -1,0 +1,457 @@
+fileFormatVersion: 2
+guid: f9c07e2c4697eed42906da9a7969deea
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1782790336489068953
+    second: Environment Tiles - Lava_0
+  - first:
+      213: -7726149665119854666
+    second: Environment Tiles - Lava_1
+  - first:
+      213: -7315689964660729489
+    second: Environment Tiles - Lava_2
+  - first:
+      213: -7053285387376373038
+    second: Environment Tiles - Lava_3
+  - first:
+      213: -614806257973614754
+    second: Environment Tiles - Lava_4
+  - first:
+      213: -499211065927032628
+    second: Environment Tiles - Lava_5
+  - first:
+      213: -2428200820573761754
+    second: Environment Tiles - Lava_6
+  - first:
+      213: -3369022323510399215
+    second: Environment Tiles - Lava_7
+  - first:
+      213: -5404510123337344
+    second: Environment Tiles - Lava_8
+  - first:
+      213: -4291436644895053926
+    second: Environment Tiles - Lava_9
+  - first:
+      213: 7484285433827177432
+    second: Environment Tiles - Lava_10
+  - first:
+      213: -164744371764465114
+    second: Environment Tiles - Lava_11
+  - first:
+      213: -8887474700709811526
+    second: Environment Tiles - Lava_12
+  - first:
+      213: -323315144647627954
+    second: Environment Tiles - Lava_13
+  - first:
+      213: -6504083169582525102
+    second: Environment Tiles - Lava_14
+  - first:
+      213: 3274168645029803435
+    second: Environment Tiles - Lava_15
+  - first:
+      213: -1098566849158557164
+    second: Environment Tiles - Lava_16
+  - first:
+      213: 8174859134339537012
+    second: Environment Tiles - Lava_17
+  - first:
+      213: 6987662384906222812
+    second: Environment Tiles - Lava_18
+  - first:
+      213: -1737695490758304621
+    second: Environment Tiles - Lava_19
+  externalObjects: {}
+  serializedVersion: 10
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 0
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 200
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 8192
+    resizeAlgorithm: 1
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 601
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 766e19472a14247e0800000000000000
+      internalID: -1782790336489068953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_1
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 601
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf170180d337c490800000000000000
+      internalID: -7726149665119854666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_2
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 601
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69d181ccb2797a90800000000000000
+      internalID: -7315689964660729489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_3
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 601
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d25af16f42bd1e90800000000000000
+      internalID: -7053285387376373038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_4
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 601
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e57abcb37f4c777f0800000000000000
+      internalID: -614806257973614754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_5
+      rect:
+        serializedVersion: 2
+        x: 1000
+        y: 601
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc0a9733e227219f0800000000000000
+      internalID: -499211065927032628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 401
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62f8366083c4d4ed0800000000000000
+      internalID: -2428200820573761754
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_7
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 401
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11f2dceeb04de31d0800000000000000
+      internalID: -3369022323510399215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_8
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 401
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 089d9ed60accceff0800000000000000
+      internalID: -5404510123337344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_9
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 401
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a97afe4cb11c174c0800000000000000
+      internalID: -4291436644895053926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 201
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abaabe9f8d859a480800000000000000
+      internalID: -8887474700709811526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_13
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 201
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4b26c4c69a538bf0800000000000000
+      internalID: -323315144647627954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_14
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 201
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 255df6f31dadcb5a0800000000000000
+      internalID: -6504083169582525102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Environment Tiles - Lava_15
+      rect:
+        serializedVersion: 2
+        x: 600
+        y: 201
+        width: 200
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba539bd090f207d20800000000000000
+      internalID: 3274168645029803435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
