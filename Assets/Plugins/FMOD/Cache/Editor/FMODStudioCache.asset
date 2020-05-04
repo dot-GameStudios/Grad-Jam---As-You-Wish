@@ -1,5 +1,23 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8281028052197669649
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/Master.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMOD_Audio/Build/Desktop/Master.bank
+  SubDir: 
+  lastModified: 637242049117569328
+  LoadResult: 0
+  FileSizes: []
+  Exists: 1
 --- !u!114 &-7949670715334163519
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15,7 +33,7 @@ MonoBehaviour:
   Path: event:/key_retrieved_01
   guid: a234c191f6295c418589b2c53b6bc2ea
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -38,7 +56,7 @@ MonoBehaviour:
   Path: event:/music_1.2
   guid: 1cd77a2a9b0338478d7352691108f310
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -61,7 +79,7 @@ MonoBehaviour:
   Path: event:/music_4.1
   guid: 76d8c560a0436a44a52c81a868074f2d
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -84,7 +102,7 @@ MonoBehaviour:
   Path: event:/key_delivered_03
   guid: 8d809341302b3b4c9f85f9dc4c58b787
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -107,7 +125,7 @@ MonoBehaviour:
   Path: event:/music_loop
   guid: 889a0b2f80eac345a1ea6bb7889272c3
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -130,7 +148,7 @@ MonoBehaviour:
   Path: event:/key_retrieved_02
   guid: 073f05c7967c524686bc45aea4d75a47
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -153,7 +171,7 @@ MonoBehaviour:
   Path: event:/music_2.1
   guid: e63c2f0f2833d54b823637715e02f964
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -194,7 +212,7 @@ MonoBehaviour:
   Path: event:/owl_flapping
   guid: 8a33cec69f3c304fb30bfd3988dfd781
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -217,7 +235,7 @@ MonoBehaviour:
   Path: event:/key_delivered_01
   guid: eac0411b05c93e469b18ee9b61f5f63f
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -257,7 +275,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EditorBanks:
   - {fileID: 2332693973941855695}
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   EditorEvents:
   - {fileID: 4609218084646909446}
   - {fileID: -3438561761320057349}
@@ -281,10 +299,10 @@ MonoBehaviour:
   - {fileID: 800392554157233097}
   EditorParameters: []
   MasterBanks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   StringsBanks:
   - {fileID: 2332693973941855695}
-  stringsBankWriteTime: 637241174817091803
+  stringsBankWriteTime: 637242049116058859
   cacheVersion: 3
 --- !u!114 &800392554157233097
 MonoBehaviour:
@@ -301,7 +319,7 @@ MonoBehaviour:
   Path: event:/bug_walking
   guid: f0455787e6eb184cb81934d7db22d075
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -324,7 +342,7 @@ MonoBehaviour:
   Path: event:/bat_walking
   guid: cfe7eec959bb144badb63a58dcf44b56
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -347,7 +365,7 @@ MonoBehaviour:
   Path: event:/key_delivered_04
   guid: 4204ee1d4b179b46b8a8edcf3479a76f
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -369,7 +387,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: Assets/FMOD_Audio/Build/Desktop/Master.strings.bank
   SubDir: 
-  lastModified: 637241174817091803
+  lastModified: 637242049116058859
   LoadResult: 0
   FileSizes:
   - Name: Desktop
@@ -392,7 +410,7 @@ MonoBehaviour:
   lastModified: 637241174817002013
   LoadResult: 0
   FileSizes: []
-  Exists: 1
+  Exists: 0
 --- !u!114 &3787440356704407328
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -426,7 +444,7 @@ MonoBehaviour:
   Path: event:/key_retrieved_03
   guid: 29024681e8175946a3192dc699482abd
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -449,7 +467,7 @@ MonoBehaviour:
   Path: event:/bat_flapping
   guid: 02c3c90d9059444f8ff7d4067b5c7f85
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -472,7 +490,7 @@ MonoBehaviour:
   Path: event:/button
   guid: d6b73a0a85066543b5105cffdbafeb86
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -495,7 +513,7 @@ MonoBehaviour:
   Path: event:/lava_pit
   guid: d6a9e076165cec46ba332790fc85d30b
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 1
   Is3D: 0
   IsOneShot: 0
@@ -518,7 +536,7 @@ MonoBehaviour:
   Path: event:/key_delivered_02
   guid: 31d6fd62c91c23488e1150c94c4ba4c7
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -541,7 +559,7 @@ MonoBehaviour:
   Path: event:/key_retrieved_04
   guid: c0a8fe89c450cf46a19b4dd403173ee2
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -564,7 +582,7 @@ MonoBehaviour:
   Path: event:/ground_hit
   guid: 4e05eba3e20ec743a9bf88c8c2099b0e
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
@@ -587,7 +605,7 @@ MonoBehaviour:
   Path: event:/game_over
   guid: 26991b9d8ce8aa459cf403e5fbbf927e
   Banks:
-  - {fileID: 3296471147987297717}
+  - {fileID: -8281028052197669649}
   IsStream: 0
   Is3D: 0
   IsOneShot: 1
