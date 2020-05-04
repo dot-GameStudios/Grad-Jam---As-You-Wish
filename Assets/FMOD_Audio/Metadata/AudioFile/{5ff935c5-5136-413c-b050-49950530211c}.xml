@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.00.00">
+	<object class="AudioFile" id="{5ff935c5-5136-413c-b050-49950530211c}">
+		<property name="assetPath">
+			<value>owl_woosh_01.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.72809523809523813</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{3c1c7932-580f-43a5-9ea1-239a8aefa1cb}</destination>
+		</relationship>
+	</object>
+</objects>
