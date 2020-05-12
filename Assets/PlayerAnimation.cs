@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerAnimation : MonoBehaviour
 {
+    public Data data;
+
     public Animator animator;
     public SpriteRenderer spriteRenderer;
     // Start is called before the first frame update
@@ -18,32 +20,32 @@ public class PlayerAnimation : MonoBehaviour
         
     }
 
-    public void FlightAnimation()
-    {
-        animator.SetBool("Flying", true);
-         animator.SetBool("Idle",false);
+    //public void FlightAnimation()
+    //{
+    //    animator.SetBool("Grounded", true);
+    //     animator.SetBool("Idle",false);
      
-    }
+    //}
 
-    public void RunAnimation()
-    {
-        animator.SetBool("Run",true);
-        animator.SetBool("Idle",false);
-    }
+    //public void RunAnimation()
+    //{
+    //    animator.SetBool("Run",true);
+    //    animator.SetBool("Idle",false);
+    //}
 
-    public void StopRunning()
-    {
-       animator.SetBool("Run",false);
-       animator.SetBool("Flying",false);
-       animator.SetBool("Idle",true);
-    }
+    //public void StopRunning()
+    //{
+    //   animator.SetBool("Run",false);
+    //   animator.SetBool("Flying",false);
+    //   animator.SetBool("Idle",true);
+    //}
 
     public void FlipForward()
     {
-        spriteRenderer.flipX = true;
+        spriteRenderer.flipX =  true;
     }
 
-        public void FlipBackward()
+    public void FlipBackward()
     {
         spriteRenderer.flipX = false;
     }
