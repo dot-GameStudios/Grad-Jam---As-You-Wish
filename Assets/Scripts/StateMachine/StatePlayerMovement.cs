@@ -11,6 +11,10 @@ public class StatePlayerMovement : State
     [SerializeField] private DataBool Healthy;
 
     public LayerMask GroundLayer;
+    public GameObject rayPosLeft;
+    public GameObject rayPosRight;
+    
+    //public GameObject Feet;
     public GameObject CheckPoint;
 
     [Header("References")]
@@ -29,19 +33,34 @@ public class StatePlayerMovement : State
 
     public void GroundCheck()
     {
-        Condition.Value = GetComponent<Collider2D>().IsTouchingLayers(GroundLayer);
-    }
+        float rayDistance = 0.8f;
+        
+        RaycastHit2D leftHit = Physics2D.Raycast(rayPosLeft.transform.position, Vector2.down, rayDistance, GroundLayer);
+        RaycastHit2D rightHit = Physics2D.Raycast(rayPosRight.transform.position, Vector2.down, rayDistance, GroundLayer);
 
+        //Debug.DrawRay(rayPosLeft.transform.position, Vector2.down, Color.red);
+        //Debug.DrawRay(rayPosRight.transform.position, Vector2.down, Color.red);
+
+        if (leftHit.collider != null || rightHit.collider != null)
+        {
+            Condition.Value = true;
+        }
+        else if(leftHit.collider == null && rightHit.collider == null)
+        {
+            Condition.Value = false;
+        }
+    }
+    
     public void Damage()
     {
-        if (RB2DTrigger.Tag == "Harmful") {
+        if (RB2DTrigger.CollTag == "Harmful") {
             Healthy.Value = false;
         }
     }
 
     public void ExtraJump()
     {
-        if (RB2DTrigger.Tag == "Key")
+        if (RB2DTrigger.CollTag == "Key")
         {
             dataIntMax.Value++;
         }
@@ -80,7 +99,7 @@ public class StatePlayerMovement : State
 
     public void GetCheckPoint()
     {
-        if (RB2DTrigger.Tag == "Checkpoint")
+        if (RB2DTrigger.CollTag == "Checkpoint")
         {
             CheckPoint = RB2DTrigger.Collider.gameObject;
         }
